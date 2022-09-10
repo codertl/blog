@@ -34,7 +34,7 @@ const article: AppRouteModule = {
     {
       path: 'tag',
       name: 'tag',
-      component: () => import('/@/views/article/list/index.vue'),
+      component: () => import('/@/views/article/tag/index.vue'),
       meta: {
         icon: 'radix-icons:bookmark-filled',
         title: t('routes.article.tag'),

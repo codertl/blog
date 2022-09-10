@@ -145,7 +145,7 @@
           description: `${t('sys.login.loginSuccessDesc')}: ${userInfo.username}`,
           duration: 3,
         });
-        location.reload();
+        // location.reload();
       }
     } catch (error) {
       createErrorModal({
